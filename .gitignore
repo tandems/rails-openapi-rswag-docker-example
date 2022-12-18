@@ -21,3 +21,12 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/config/*.local.yml
+/config/credentials/local.*
+
+/config/credentials/development.key
+
+/config/credentials/test.key
+
+/config/credentials/production.key
