@@ -1,24 +1,57 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby version
 
-Things you may want to cover:
+3.1.3
 
-* Ruby version
+## System dependencies
 
-* System dependencies
+* MySQL 8.0
 
-* Configuration
+## Setup project
 
-* Database creation
+Fork the Project
 
-* Database initialization
+```
+$ git clone git@github.com:tandems/demo.git
+$ cd demo
+```
 
-* How to run the test suite
+### Initialize the Project
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ make init
+$ make up
+```
 
-* Deployment instructions
+Enjoy your development :)
 
-* ...
+## How to run the test suite
+
+```
+$ make rspec spec
+```
+
+## How to run the rubocop
+
+```
+$ make rubocop
+```
+
+## How to run security check
+
+```
+$ make brakeman
+```
+
+## How to edit credential
+
+```
+$ make credential_edit [ENV]
+```
+
+## How do create API Documents
+
+```
+$ make swagger_update
+```
